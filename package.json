@@ -1,5 +1,5 @@
 {
-  "name": "package-sample",
+  "name": "@aleksandarcrvc/package-sample",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -28,6 +28,6 @@
     "babel-preset-es2015": "^6.24.1"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@sample-package"
+    "registry": "https://npm.pkg.github.com"
   }
 }
