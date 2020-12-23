@@ -1,0 +1,33 @@
+{
+  "name": "package-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/index.js -o dist/index.js",
+    "deploy": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandarcrvc/package-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandarcrvc/package-sample/issues"
+  },
+  "homepage": "https://github.com/aleksandarcrvc/package-sample#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@sample-package"
+  }
+}
