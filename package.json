@@ -1,8 +1,8 @@
 {
   "name": "@aleksandarcrvc/package-sample",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "mkdir dist && babel src/index.js -o dist/index.js",
     "deploy": "rm -rf dist/ && npm run build && npm publish"
