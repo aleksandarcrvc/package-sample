@@ -1,6 +1,6 @@
 {
   "name": "@aleksandarcrvc/package-sample",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,6 @@
     "registry": "https://npm.pkg.github.com"
   },
   "files": [
-    "dist/index.js"
+    "dist/*.**"
   ]
 }
