@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src/index.js -o dist/index.js",
-    "deploy": "npm publish"
+    "deploy": "npm build && npm publish"
   },
   "repository": {
     "type": "git",
