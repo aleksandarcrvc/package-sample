@@ -1,11 +1,11 @@
 {
   "name": "@aleksandarcrvc/package-sample",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "babel src/index.js -o dist/index.js",
-    "deploy": "npm build && npm publish"
+    "deploy": "rm -rf dist/ && npm build && npm publish"
   },
   "repository": {
     "type": "git",
